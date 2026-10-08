@@ -1,8 +1,8 @@
 //Concept: Using object as a parameter.
-class Object_As_Parameter{
+class Object_As_Parameter {
     String Account_holder;
     double balance;
-    void Transfer_to(Object_As_Parameter receiver, double amount){
+    void Transfer_to (Object_As_Parameter receiver, double amount){
         System.out.println("Account holder's balance: " +balance);
       
         if (balance>=amount){
