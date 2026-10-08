@@ -10,7 +10,7 @@ import java.util.Scanner;
     if (num<=0){
         continue;}
     else{
-        System.out.println("Positive number");
+        System.out.println(num +" is a Positive Number");
     }}
 
     sc.close();
